@@ -34,9 +34,7 @@
 
 /* это модификаторы столбца */
 
-
 .footer__author {
-
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
@@ -66,7 +64,6 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-
 }
 
 .footer__column-link {
@@ -74,7 +71,6 @@
   font-size: 18px;
   font-weight: normal;
   margin-left: 10px;
-
 }
 
 .footer__column-link_theme_dark {
@@ -100,9 +96,6 @@
 .footer__social-icon_url_instagram {
   background-image: url("../images/instagram_color_white.svg");
 }
-
-
-
 
 .footer__theme_dark {
   background-color: #1f1f1f;

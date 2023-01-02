@@ -13,7 +13,6 @@
   /* сбрасиываем отступы на уровне блока */
   margin: 0;
   padding: 0;
-
 }
 
 .header__title {
@@ -46,17 +45,13 @@
 }
 
 .header__main-illustration {
-  background-image: url("../images/two_again.png");
   height: 608px;
   width: 765px;
-  background-position: center;
-  background-size: cover;
+
   position: absolute;
   bottom: 0px;
   right: 0px;
 }
-
-
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {

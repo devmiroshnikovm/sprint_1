@@ -36,7 +36,7 @@
   font-weight: normal;
 
   position: absolute;
-  bottom: calc(890px/2);
+  bottom: calc(890px / 2);
   right: 0px;
 
   margin-right: 48px;
@@ -46,11 +46,8 @@
 }
 
 .feynman__main-illustration {
-  background-image: url("../images/feynman.png");
   height: 637px;
   width: 867px;
-  background-position: center;
-  background-size: cover;
 
   position: absolute;
   bottom: 0px;
