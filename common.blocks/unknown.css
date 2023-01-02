@@ -1,0 +1,7 @@
+/*
+TODO удалить файл unknown.css, сюда положил css классы, которые не понятно как выгружать в файловую структуру BEM
+*/
+.description {
+  display: flex;
+  justify-content: center;
+}

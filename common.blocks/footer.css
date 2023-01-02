@@ -1,0 +1,110 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  min-height: 350px;
+}
+
+.footer__columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.footer__column {
+  /* тут должны быть общие свойства для столбца */
+  display: flex;
+  flex-direction: column;
+}
+
+/* это модификаторы столбца */
+.footer__column_content_copyright {
+  justify-content: space-between;
+  flex-basis: 711px;
+}
+
+.footer__column_content_info {
+  justify-content: baseline;
+}
+
+.footer__column_content_social {
+  justify-content: baseline;
+}
+
+/* это модификаторы столбца */
+
+
+.footer__author {
+
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+
+  /* зачем это */
+  margin-top: 18px;
+
+  margin-bottom: 18px;
+}
+
+.footer__column-heading {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.footer__column-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+
+  margin-top: 20px;
+  margin-bottom: 16px;
+}
+
+.footer__column-link-wrap-icon-and-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+.footer__column-link {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  margin-left: 10px;
+
+}
+
+.footer__column-link_theme_dark {
+  text-decoration: none;
+  color: white;
+}
+
+.footer__social-icon {
+  height: 16px;
+  width: 16px;
+  background-position: center;
+  background-size: cover;
+}
+
+.footer__social-icon_url_facebook {
+  background-image: url("../images/facebook_color_white.svg");
+}
+
+.footer__social-icon_url_vk {
+  background-image: url("../images/vk_color_white.svg");
+}
+
+.footer__social-icon_url_instagram {
+  background-image: url("../images/instagram_color_white.svg");
+}
+
+
+
+
+.footer__theme_dark {
+  background-color: #1f1f1f;
+  color: white;
+}
