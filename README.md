@@ -15,6 +15,8 @@ This is a sample project that demonstrates basics of HTML and CSS, based on BEM 
 See \*.css files in common.blocks folder.
 
 Files structure:
+
+```
 .
 ├── README.md
 ├── checklist-1.pdf
@@ -47,6 +49,7 @@ Files structure:
 │   └── style.css --> not used
 ├── texts.md
 └── tree.md
+```
 
 ## Getting Started
 
