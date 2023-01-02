@@ -117,9 +117,9 @@ reset CSS:
 ## Questions
 
 #В футере есть ссылки? По ним можно кликнуть?
-`<span style="color:red">
+<span style="color:red">
 вот так "#" можно ссылку оставить?
-</span>`
+</span>
 
 #У всех изображений есть атрибут alt ?
 `<span style="color:red">
